@@ -1,0 +1,27 @@
+name: deeprl
+channels:
+    - anaconda
+    - conda-forge
+    - pytorch
+dependencies:
+    - pytorch
+    - torchvision
+    - torchaudio
+    - cudatoolkit=11.0
+    - gym
+    - gym-box2d
+    - gym-classic_control
+    - gym-atari
+    - pillow
+    - pyglet
+    - matplotlib
+    - numpy
+    - pytest
+    - jupyter
+    - docopt
+    - pyyaml
+    - protobuf
+    - grpcio
+    - pandas
+    - scipy
+    - ipykernel
